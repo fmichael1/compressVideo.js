@@ -8,3 +8,17 @@ Before running the script, ensure you have Node.js installed. Then, install `flu
 
 ```bash
 npm install fluent-ffmpeg
+```
+
+## Usage
+To use this script, run it via Node.js, passing the required arguments:
+
+```bash
+node compressVideo.js <input-file> <quality> <crf> <speed>
+```
+
+### Arguments
+* '<input-file>': Path to the video file to be compressed.
+* '<quality>': The height in pixels for the output video (e.g., 480 for 480p).
+* '<crf>': Constant Rate Factor for quality control (0-51; 0 is lossless, 23 is default).
+* '<speed>': Preset for encoding speed (values like ultrafast, superfast, etc.).
