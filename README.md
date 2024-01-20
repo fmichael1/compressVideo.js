@@ -29,3 +29,17 @@ node compressVideo.js <input-file> <quality> <crf> <speed>
 ```bash
 node compressVideo.js video.mp4 720 23 fast
 ```
+This command will compress `video.mp4` to 720p with a CRF of 23 and a fast encoding speed.
+
+## Script Functionality
+
+- `compressVideo`: Main function to compress the video.
+- `showHelp`: Displays usage instructions.
+
+## Error Handling
+
+The script includes error handling, displaying relevant messages in case of issues during the compression process.
+
+## Contributions
+
+Feel free to fork this repository and submit pull requests for improvements.
