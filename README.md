@@ -18,7 +18,7 @@ node compressVideo.js <input-file> <quality> <crf> <speed>
 ```
 
 ### Arguments
-* "<input-file>": Path to the video file to be compressed.
+* <code><input-file></code>: Path to the video file to be compressed.
 * <quality>: The height in pixels for the output video (e.g., 480 for 480p).
 * <crf>: Constant Rate Factor for quality control (0-51; 0 is lossless, 23 is default).
 * <speed>: Preset for encoding speed (values like ultrafast, superfast, etc.).
